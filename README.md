@@ -13,3 +13,15 @@ Next steps:
 2. Set the provider of the datasource block in schema.prisma to match your database: postgresql, mysql, sqlite, sqlserver, mongodb or cockroachdb.
 3. Run prisma db pull to turn your database schema into a Prisma schema.
 4. Run prisma generate to generate the Prisma Client. You can then start querying your database.
+
+```
+db push : npx prisma db push
+관리자 패널 : npx prisma studio
+npx prisma generate
+```
+
+# planetScale
+
+```
+db 연결 : pscale connect carrot-market
+```
