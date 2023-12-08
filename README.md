@@ -25,3 +25,7 @@ npx prisma generate
 ```
 db 연결 : pscale connect carrot-market
 ```
+
+# Twilio
+
+SMS를 통해 메세지를 보낼 수 있고 robocall 또는 폰 번호를 숨기는 기능도 있습니다.
